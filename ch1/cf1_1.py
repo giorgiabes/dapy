@@ -1,8 +1,10 @@
 # Code Fragment 1.1: A Python program that computes a grade-point average (GPA)
 
-print("Welcome to the GPA calculator.")
-print("Please enter all your letter grades, one per line.")
-print("enter a blank line to designate the end.")
+print(
+    """Welcome to the GPA calculator.")
+Please enter all your letter grades, one per line.
+enter a blank line to designate the end."""
+)
 # map from letter grade to point value
 points = {
     "A+": 4.0,
